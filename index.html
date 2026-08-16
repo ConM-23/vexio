@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vexio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Phaser (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+
+  <!-- Supabase (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.48.0/dist/umd/supabase.min.js"></script>
+
+  <!-- Game managers -->
+  <script src="js/TileManager.js"></script>
+  <script src="js/LevelManager.js"></script>
+  <script src="js/MoveManager.js"></script>
+  <script src="js/AdManager.js"></script>
+
+  <!-- Services -->
+  <script src="js/supabaseClient.js"></script>
+  <script src="js/PlayerService.js"></script>
+  <script src="js/ProgressService.js"></script>
+  <script src="js/AchievementService.js"></script>
+
+  <!-- Main game (must be last) -->
+  <script src="js/game.js"></script>
+</head>
+<body>
+  <div id="game-container"></div>
+</body>
+</html>
